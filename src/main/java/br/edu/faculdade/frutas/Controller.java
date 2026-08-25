@@ -23,8 +23,6 @@ public class Controller {
     }
 
     @GetMapping ("/frutas")
-    public List<Fruta> frutas(){
-        return  List.of(fruta1,fruta2,fruta3);
     }
 
 
